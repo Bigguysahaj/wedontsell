@@ -1,7 +1,7 @@
-"use client";
+'use client';
  import Image from 'next/image'
  import { signIn, signOut, useSession } from 'next-auth/react'
- import Nav from '@/components/Nav'
+ import Nav from './Nav'
 
 export default function Layout({ children}) {
   const { data: session } = useSession();

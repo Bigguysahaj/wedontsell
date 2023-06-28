@@ -14,8 +14,7 @@ export default function Home() {
       <div className='flex bg-gray-300 gap-1 text-black rounded-lg overflow-hidden'>
         <img src={session?.user?.image} alt="profile" className="w-6 h-6" />
         <span className='px-2'>
-        
-        {session?.user?.name} 
+          {session?.user?.name} 
         </span>  
       </div>
     </div>
